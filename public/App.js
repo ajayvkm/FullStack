@@ -4,8 +4,8 @@
 var studentInfo = [{
   name: 'AJAY MAHESH VISHWAKARMA',
   imageurl: "images/Ajay.jpg",
-  intro: "Software Development Engineer with 10+ years of experience. I am having Bachelor of Science degree in the area of Computer Science. Now pursuing Advanced Certification later wishing to complete my Master of Science degree.",
-  githuburl: ""
+  intro: "Software Development Engineer with 10+ years of experience. I am having Bachelor of Science degree in the area of Computer Science. Now pursuing Advanced Certification later willing to complete my Master of Science degree.",
+  githuburl: "https://github.com/ajayvkm/FullStack.git"
 }];
 var studentData = studentInfo.map(function (_ref) {
   var name = _ref.name,

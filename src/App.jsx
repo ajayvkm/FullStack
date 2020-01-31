@@ -1,5 +1,5 @@
 /*For now hardcoded information in MAP - Later will move it JSON file*/
-const studentInfo = [{name: 'AJAY MAHESH VISHWAKARMA', imageurl: "images/Ajay.jpg", intro: "Software Development Engineer with 10+ years of experience. I am having Bachelor of Science degree in the area of Computer Science. Now pursuing Advanced Certification later wishing to complete my Master of Science degree.", githuburl: ""}];
+const studentInfo = [{name: 'AJAY MAHESH VISHWAKARMA', imageurl: "images/Ajay.jpg", intro: "Software Development Engineer with 10+ years of experience. I am having Bachelor of Science degree in the area of Computer Science. Now pursuing Advanced Certification later willing to complete my Master of Science degree.", githuburl: "https://github.com/ajayvkm/FullStack.git"}];
 const studentData = studentInfo.map(({name, imageurl, intro, githuburl}) =>
     <table>
         <tbody>
