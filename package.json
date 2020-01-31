@@ -1,0 +1,32 @@
+{
+  "name": "fullstack-assignment1",
+  "version": "1.0.0",
+  "description": "Modern Fullstack Assignment 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajayvkm/FullStack.git"
+  },
+  "author": "Ajay Vishwakarma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajayvkm/FullStack/issues"
+  },
+  "homepage": "https://github.com/ajayvkm/FullStack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3"
+  }
+}
